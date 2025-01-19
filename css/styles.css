@@ -1,0 +1,161 @@
+body {
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+button {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+address {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+address ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+address ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #434455;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.preview {
+  width: 100%;
+  height: 600px;
+  background-color: #2e2f42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.preview h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  width: 496px;
+}
+
+.preview button {
+  background-color: #4d5ae5;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border: 0;
+}
+
+.plans {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.plans h2 {
+  display: none;
+}
+
+.plans ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.plans ul li {
+  width: 264px;
+}
