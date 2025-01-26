@@ -29,13 +29,13 @@ nav {
 
 ul,
 ol {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   list-style: none;
 }
 
 li {
-  margin: 0;
+  /* margin: 0; */
 }
 
 a {
@@ -49,12 +49,19 @@ a:visited {
 
 nav ul {
   justify-content: space-around;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 nav ul li a {
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+nav ul li a:hover {
+  color: #404bbf;
 }
 
 address {
@@ -63,7 +70,7 @@ address {
 
 address ul {
   justify-content: space-around;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 address ul li a {
@@ -73,15 +80,17 @@ address ul li a {
 }
 
 header .logo-header {
-  font-family: "Raleway", serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  color: #2e2f42;
+  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 header .logo-header span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .preview {
@@ -163,11 +172,11 @@ footer .logo-footer {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 footer .logo-footer span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 footer div p {
