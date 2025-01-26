@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between;
+  align-items: center; */
 }
 
 a,
@@ -24,7 +24,7 @@ button {
 }
 
 nav {
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 ul,
@@ -48,11 +48,11 @@ a:visited {
 }
 
 nav ul {
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* gap: 40px; */
 }
 
-nav ul li a {
+.nav-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -60,23 +60,38 @@ nav ul li a {
   color: #2e2f42;
 }
 
-nav ul li a:hover {
+.nav-link:hover {
   color: #404bbf;
 }
 
-address {
-  justify-content: center;
+.nav-link:focus {
+  color: #404bbf;
 }
 
-address ul {
-  justify-content: space-around;
+.header-address {
+  font-style: normal;
+  /* justify-content: center; */
+}
+
+.header-address ul {
+  /* justify-content: space-around; */
   /* gap: 40px; */
 }
 
-address ul li a {
+.address-link {
   font-size: 16px;
   font-weight: 400;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover {
+  color: #404bbf;
+}
+
+.address-link:focus {
+  color: #404bbf;
 }
 
 header .logo-header {
