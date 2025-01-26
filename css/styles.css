@@ -95,14 +95,15 @@ address ul li a {
   text-decoration: none;
 }
 
-.logo {
+header .logo-header {
   font-family: "Raleway", serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
+  color: #2e2f42;
 }
 
-.logo span {
+header .logo-header span {
   color: #4d5ae5;
 }
 
@@ -325,4 +326,42 @@ address ul li a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+footer {
+  height: 312px;
+  background-color: #2e2f42;
+}
+
+footer div {
+  width: 264px;
+  height: 100%;
+  margin-left: 156px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+footer .logo-footer {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #f4f4fd;
+}
+
+footer .logo-footer span {
+  color: #4d5ae5;
+}
+
+footer div p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f4f4fd;
 }
