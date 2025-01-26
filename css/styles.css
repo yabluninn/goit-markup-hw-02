@@ -136,10 +136,12 @@ header .logo-header span {
   letter-spacing: 0.02em;
 }
 
-.plans ul li h3 {
+.plan-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .plan-content {
@@ -189,11 +191,11 @@ header .logo-header span {
   font-weight: 400;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
-footer .logo-footer {
+.footer .logo-footer {
   font-family: "Raleway", serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -201,12 +203,14 @@ footer .logo-footer {
   color: #4d5ae5;
 }
 
-footer .logo-footer span {
+.footer .logo-footer span {
   color: #f4f4fd;
 }
 
-footer div p {
+.footer-content {
   font-size: 16px;
   font-weight: 400;
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
