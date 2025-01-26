@@ -5,8 +5,6 @@ body {
 }
 
 header {
-  /* justify-content: space-between;
-  align-items: center; */
 }
 
 a,
@@ -24,18 +22,14 @@ button {
 }
 
 nav {
-  /* justify-content: space-around; */
 }
 
 ul,
 ol {
-  /* margin: 0;
-  padding: 0; */
   list-style: none;
 }
 
 li {
-  /* margin: 0; */
 }
 
 a {
@@ -48,8 +42,6 @@ a:visited {
 }
 
 nav ul {
-  /* justify-content: space-around; */
-  /* gap: 40px; */
 }
 
 .nav-link {
@@ -70,12 +62,9 @@ nav ul {
 
 .header-address {
   font-style: normal;
-  /* justify-content: center; */
 }
 
 .header-address ul {
-  /* justify-content: space-around; */
-  /* gap: 40px; */
 }
 
 .address-link {
@@ -112,19 +101,39 @@ header .logo-header span {
   background-color: #2e2f42;
 }
 
-.preview h1 {
+.preview-title {
   font-size: 56px;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
-.preview button {
+.order-button {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
   border: 0;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+}
+
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+.plans-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .plans ul li h3 {
@@ -133,10 +142,12 @@ header .logo-header span {
   font-weight: 500;
 }
 
-.plans ul li p {
+.plan-content {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team {
