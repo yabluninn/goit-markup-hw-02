@@ -156,21 +156,34 @@ header .logo-header span {
   background-color: #f4f4fd;
 }
 
-.team h2 {
+.team-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.team ul li div h3 {
+.team-item {
+  background-color: #ffffff;
+}
+
+.ti-header {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.team ul li div p {
+.ti-title {
   font-size: 16px;
   font-weight: 400;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .portfolio h2 {
